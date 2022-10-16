@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.current{
+    background-color: aquamarine;
+    width: 500px;
+    height: 220px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+div.current div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.city{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.date{
+    width: 85px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    text-align: left;
+}
+
+.temp{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div.forecast{
+    background-color: darkcyan;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+div.forecast div{
+    border-bottom: 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

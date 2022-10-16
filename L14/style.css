@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dailyBut{
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    display: block;
+}
+
+.dailyDiv{
+    font-size: 70px;
+}
+
+body{
+    padding: 50px;
+}
+
+div{
+    margin: 20px;
+    display: inline;
+}
+
+.neighbor-title{
+    background-color: gray;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.neighbor{
+    transform: scale(0.8);
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.player{
+    /* width: 700px;
+    height: 300px; */
+    margin: 10px 20px 20px 20px;
+    display: block;
+}
+
+.block{
+    display: inline-block;
+    justify-content: space-around;
+}

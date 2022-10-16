@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs{
+    overflow: hidden;
+    border: 1px solid #000;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+.tabs button{
+    background: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+}
+
+.tabs button:hover{
+    background-color: #ddd;
+}
+
+.tabs button.active{
+    background-color: #ccc;
+}
+
+div{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+div.active{
+    display: block;
+}
+
+.switch{
+    margin: 20px 20px 20px 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: dimgray;
+    color: white;
+}
+
+.dark{
+    background-color: dimgray;
+    color: white;
+    border: 1px solid white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.time {
+    border: 1px solid black;
+    background-color: #f1f1f1;
+    display: block;
+    width: 90px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
